@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap");
 
 * {
     margin: 0;
@@ -9,7 +9,6 @@
 body {
     font-family: roboto;
     color: #777777;
-
 }
 
 /*................................Header.................*/
@@ -25,7 +24,6 @@ h2 {
     float: left;
     font-size: 280%;
     padding-left: 50px;
-
 }
 
 #menu {
@@ -33,6 +31,7 @@ h2 {
     list-style-type: none;
     letter-spacing: 2px;
 }
+
 #logo,
 #menu {
     line-height: 75px;
@@ -41,7 +40,6 @@ h2 {
 #menu li {
     float: right;
     margin-right: 30px;
-
 }
 
 #menu a {
@@ -55,4 +53,23 @@ h2 {
 
 .active {
     border-bottom: 1px solid #777777;
+}
+
+/*................................Main image................*/
+
+#gym-image {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/gym.pg") no-repeat center center;
+    animation-name: gym-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#gym-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
 }
