@@ -23,7 +23,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
-    padding-left: 50px;
+    margin-left: 30px;
 }
 
 #menu {
@@ -172,6 +172,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
+    margin-bottom: 30px;
 
 }
 
@@ -181,11 +182,11 @@ hr {
 
 .right-about-heading p {
     text-align: right;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .left-about-heading p {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px;*/
 
 }
 
@@ -232,7 +233,24 @@ hr {
 
 }
 
-.right-info-join {
+#right-info h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 70%;
+    padding-left: 120px;
+
+}
+
+#right-info p {
+    padding-bottom: 30px;
+    width: 70%;
+    padding-left: 120px;
+
+}
+
+
+
+/*.right-info-join {
     width: 50%;
     margin-bottom: 80px;
     align-items: center;
@@ -240,7 +258,7 @@ hr {
     padding-top: 30px;
 
 }
-
+*/
 
 
 .btn-join {
@@ -256,23 +274,14 @@ hr {
 
 }
 
-.btn-join:hover {
+.btn-join:hover,
+button:hover {
     background-color: #45a049;
 }
 
-.right-info-join h2 {
-    padding-top: 20px;
-    padding-bottom: 30px;
 
 
-}
-
-.right-info-join p {
-    padding-bottom: 30px;
-
-}
-
-input[type="email"] {
+input [type="email"] {
     padding: 10px;
     margin: 5px;
     width: 250px;
@@ -283,7 +292,7 @@ input[type="email"] {
 
 button {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: red;
     color: white;
     border: none;
     border-radius: 5px;
@@ -291,7 +300,7 @@ button {
 }
 
 /*................................Footer................*/
-
+/*.
 footer {
     background-color: #333;
     color: white;
@@ -361,22 +370,161 @@ footer a:hover {
         list-style-type: none;
 
     }
+        */
+footer {
+    height: 150px;
+}
+
+.social-icons {
+    text-align: center;
+
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+/*................................Gallery................*/
+
+#photo {
+    clear: none;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img {
+    width: 100%;
+    break-inside: avoid-column;
+}
+
+#gallery-outer {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*................................Footer................*/
+@media screen and (max-width: 1393px) {
+    #gym-ethos {
+        width: 65%;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #info-ethos div {
+        width: 100%;
+        clear: both;
+        height: 400px;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #fff;
+        padding: 0;
+        font-size: 20px;
+    }
+
+
+
+
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+
+    #gym-ethos {
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    #info-ethos {
+        width: 100%;
+        height: 800px;
+        margin: 0 auto;
+
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #right-info {
+        width: inherit;
+        height: 800px;
+        background-color: rgba(255, 0, 0, 0.1);
+
+    }
+
+    #right-info h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 70%;
+        font-size: 30px;
+
+    }
+
+    #right-info p {
+        padding-bottom: 30px;
+        width: 70%;
+        font-size: medium;
+
+
+    }
 
     #photo {
-        clear: none;
-        line-height: 0;
-        column-count: 4;
-        column-gap: 0px;
+        column-count: 3;
     }
+}
 
-    #photo img {
-        width: 100%;
-        break-inside: avoid-column;
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
     }
-
-    #gallery-outer {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
+}
