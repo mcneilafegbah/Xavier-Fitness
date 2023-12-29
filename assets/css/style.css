@@ -60,7 +60,8 @@ h2 {
 #gym-image {
     height: 600px;
     width: 100%;
-    background: url("assets/images/gym.pg") no-repeat center center;
+    background: url("../images/gym.png") no-repeat center center;
+
     animation-name: gym-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -71,5 +72,311 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+@keyframes gym-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text,
+cover-text h6 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: roboto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3e3c3c;
+
+    width: 800px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    left: 150px;
+
+    position: absolute;
+}
+
+.header-p {
+    font-size: 18;
+    font-family: roboto;
+    text-transform: none;
+}
+
+.overlay-h6 {
+    font-size: 14px;
+    height: 35px;
+    padding-top: 10px;
+    bottom: 30px;
+    left: 150px;
+}
+
+.overlay-h3 {
+    font-size: 70px;
+    font-family: roboto;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+
+/*................................fitness Ethos................*/
+
+#gym-ethos {
+    height: 500px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 48%;
+    float: left;
+
 
 }
+
+#right-about {
+    padding-top: 30px;
+    width: 48%;
+    float: right;
+
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+
+
+}
+
+.right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+.left-about-heading p {
+    margin-bottom: 80px;
+
+}
+
+#welcome {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 200%;
+}
+
+.xavier {
+    color: red;
+}
+
+/*................................Info................*/
+
+#info-ethos {
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#left-info {
+    padding: 0, 0, 0, 0;
+    height: 600px;
+    width: 50%;
+    background: url("../images/gym3.jpg") no-repeat;
+    background-size: cover;
+    float: left;
+
+}
+
+#right-info {
+    padding: 0, 0, 0, 0;
+    height: 600px;
+    width: 50%;
+    float: right;
+    text-align: center;
+
+    background-color: rgba(255, 0, 0, 0.1);
+
+}
+
+.right-info-join {
+    width: 50%;
+    margin-bottom: 80px;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 30px;
+
+}
+
+
+
+.btn-join {
+    background-color: red;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: roboto;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+
+}
+
+.btn-join:hover {
+    background-color: #45a049;
+}
+
+.right-info-join h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+
+}
+
+.right-info-join p {
+    padding-bottom: 30px;
+
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*................................Footer................*/
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+
+}
+
+.footer-menu {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #c30421;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    display: inline;
+}
+
+.social-icons a:hover {
+    color: #c30421;
+
+
+    .social-networks {
+        margin: 10px;
+
+    }
+
+    .social-networks a {
+        margin: 0 10px;
+        color: white;
+        font-size: 20px;
+        padding-top: 20px;
+
+    }
+
+    .footer-social {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .social-networks li {
+        list-style-type: none;
+
+    }
+
+    #photo {
+        clear: none;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0px;
+    }
+
+    #photo img {
+        width: 100%;
+        break-inside: avoid-column;
+    }
+
+    #gallery-outer {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
