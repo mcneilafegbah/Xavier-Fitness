@@ -109,7 +109,7 @@ cover-text h6 {
 }
 
 .header-p {
-    font-size: 18;
+    font-size: 18px;
     font-family: roboto;
     text-transform: none;
 }
@@ -235,15 +235,6 @@ hr {
     padding-left: 120px;
 }
 
-/*.right-info-join {
-    width: 50%;
-    margin-bottom: 80px;
-    align-items: center;
-    padding-left: 150px;
-    padding-top: 30px;
-
-}
-*/
 
 .btn-join {
     background-color: red;
@@ -280,78 +271,7 @@ button {
     cursor: pointer;
 }
 
-/*................................Footer................*/
-/*.
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
 
-.footer-column {
-    flex: 1;
-    margin: 0 10px;
-    text-align: center;
-
-}
-
-.footer-menu {
-    font-size: 20px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color: #c30421;
-}
-
-.social-icons a {
-    color: white;
-    font-size: 30px;
-    margin-right: 10px;
-    transition: color 0.3s ease;
-    display: inline;
-}
-
-.social-icons a:hover {
-    color: #c30421;
-
-
-    .social-networks {
-        margin: 10px;
-
-    }
-
-    .social-networks a {
-        margin: 0 10px;
-        color: white;
-        font-size: 20px;
-        padding-top: 20px;
-
-    }
-
-    .footer-social {
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .social-networks li {
-        list-style-type: none;
-
-    }
-        */
 footer {
     height: 150px;
 }
@@ -458,16 +378,16 @@ footer {
         font-size: 100%;
         font-family: roboto;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         color: #3e3c3c;
 
-        width: 400px;
+        width: 350px;
         height: 400px;
 
         padding-top: 20px;
         padding-left: 10px;
 
-        bottom: 30px;
+        bottom: 20px;
     }
 
     .overlay-h6 {
@@ -483,6 +403,10 @@ footer {
         font-family: roboto;
         letter-spacing: 2px;
         padding-bottom: 30px;
+    }
+
+    .header-p {
+        font-size: 12px;
     }
 
 
@@ -512,11 +436,6 @@ footer {
         padding: 0 20px 0 20px;
     }
 
-    /*  #right-info {
-
-        background-color: rgba(255, 0, 0, 0.1);
-        width: 50%;
-    } */
 
     #right-info h2 {
         padding-bottom: 15px;
@@ -578,6 +497,7 @@ footer {
         column-count: 2;
     }
 }
+
 
 
 
