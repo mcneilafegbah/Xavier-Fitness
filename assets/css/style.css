@@ -499,12 +499,20 @@ footer {
 
 
 /*................................signup...............*/
-.form-section {
+.form-section,
+.confirm {
     clear: left;
     background: url("../images/signup.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
+}
+
+.confirm h2 {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+
 }
 
 .signup-form {
