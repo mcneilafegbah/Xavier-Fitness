@@ -1,39 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Xavier Fitness
 
-Welcome,
+Xavier Fitness offers a results-based, community-driven fitness approach for individuals at all fitness levels. They utilize portable exercise devices to ensure proper form and prevent injuries during workouts. The programs are tailored to individual fitness levels, goals, and specific needs, fostering a sense of accomplishment and sustained commitment. The fitness community provides support, camaraderie, and genuine care, with members connecting with like-minded peers, sharing tips, celebrating achievements, and providing encouragement. The gym allows 24/7 access, 365 days a year, with a monitored entry system, providing convenience and security for individuals to focus on their fitness goals worry-free.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### Existing Features
 
-## Codeanywhere Reminders
+- _Navigation Bar_ (Section 1)
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page a
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- The Landing Page (Section 2)
+    - The landing includes a photograph with text overlay to the left to allow the user to know exactly what the site is all about.
+    - This section introduces the user to Xavier Fitness with an image to catch users attention
 
-`python3 -m http.server`
+- Gym (Section 3)
+  - The Gym section will allow the user to see the benefits of joining the joining Xavier Fitness
+  - This user will see the value of signing up to Xavier Fitness. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Newsletter (Section 4)
+  - This section will allow the user to join Xavier Fitness and also to sucbsrive to our weekley newsletters about benefits Fitness
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- The Footer
 
-`http_server`
+    - The footer section includes links to the relevant social media sites for Xavier Fitness. The links will open to a new tab to allow easy navigation for the user.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Gallery Page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    -   The gallery shows images of different people and the kind of FItness exercixes that can be done
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Sign Up Page
 
-To log into the Heroku toolbelt CLI:
+    - This page will allow the user to get registered  Xavier Fitness 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Confirmation Page
+  - This page is a landing page thanking user  for registering to Xavier Fitness
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
+### Testing
 
-Happy coding!
+ Tested site for responsiveness, for tabs and different mobile devices. This was achived after a long time spent on getting the codes to resolve this
+
+# Deployment
+
+- The site was deployed to GitHub pages.
+
+# Credits
+
+
+## Content
+
+- Some text for the Home page was taken from [Anytime Fitness](<https://www.anytimefitness.co.uk/>)
+- Instructions on how to implement form validation on the Sign Up page was taken from Code Instutite Tutorials
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+  ## Media
+- The photos used on the home Gallery and sign up page are from [Unsplash](https://unsplash.com/) Open Source site
+
