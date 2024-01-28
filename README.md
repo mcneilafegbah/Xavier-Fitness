@@ -53,14 +53,14 @@ Xavier Fitness offers a results-based, community-driven fitness approach for ind
  ![Confirmation](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/confirmation%20page.PNG)
 
 ## Wireframes
-Home Page Wireframe [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/mobile.PNG)
+Home Page Wireframe [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/homepagewire.png)
 
 
 Gallery  Wireframe 
- [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/mobile.PNG)
+ [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/gallerywire.png)
 
  Signup  Wireframe 
- [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/mobile.PNG)
+ [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/signupwire.png)
 
 ### Testing
 
