@@ -68,7 +68,9 @@ Gallery  Wireframe
 
 # Deployment
 
-- The site was deployed to GitHub pages.
+- The site was deployed to GitHub pages.  I pushed the code to Github and in the settings I scrolled down pages section and selected main the Source dropdown.
+
+- I also created a link to the [live site](https://mcneilafegbah.github.io/Xavier-Fitness/)
 
 # Credits
 
