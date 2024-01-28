@@ -52,6 +52,15 @@ Xavier Fitness offers a results-based, community-driven fitness approach for ind
 
  ![Confirmation](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/confirmation%20page.PNG)
 
+## Wireframes
+Home Page Wireframe [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/mobile.PNG)
+
+
+Gallery  Wireframe 
+ [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/mobile.PNG)
+
+ Signup  Wireframe 
+ [View](https://github.com/mcneilafegbah/Xavier-Fitness/blob/main/assets/images/mobile.PNG)
 
 ### Testing
 
@@ -64,12 +73,20 @@ Xavier Fitness offers a results-based, community-driven fitness approach for ind
 # Credits
 
 
+
 ## Content
 
 - Some text for the Home page was taken from [Anytime Fitness](<https://www.anytimefitness.co.uk/>)
 - Instructions on how to implement form validation on the Sign Up page was taken from Code Instutite Tutorials
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons  were taken from [Font Awesome](https://fontawesome.com/)
+  
+- the Font used is the "Roboto" font and is imported from [google Fonts](https://fonts.google.com/)
 
   ## Media
 - The photos used on the home Gallery and sign up page are from [Unsplash](https://unsplash.com/) Open Source site
 
+## Other Resources
+
+W3 Schools- Used to refresh my memory on elements and styling
+
+[w3schools](https://www.w3schools.com/)
